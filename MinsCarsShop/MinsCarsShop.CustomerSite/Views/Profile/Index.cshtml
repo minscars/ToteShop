@@ -1,0 +1,94 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!-- User information -->
+<div style="height: 450px !important;" class="hero-area features-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 offset-lg-2 text-center">
+                <div class="hero-text">
+                    <div class="hero-text-tablecell">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper bg-white">
+	<div class="container pt-3 pb-3 mt-5 border border-2 rounded-3" style="background-color: var(--body)">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="section-title">
+                    <h3><span class="orange-text">Your </span>Information</h3>
+                </div>
+            </div>
+        </div>
+		<div class="container">
+			<div class="profile">
+				<div class="user-avatar">
+					<img class ="avatar-img mb-3" src="~/img/users/userLMK.jpg" alt="Ảnh đại diện">
+					<form action="" method="post">
+						<input type="file" name="file" id="file">
+						<label class ="btn btn-primary" for="file">Tải ảnh lên</label>
+					</form>
+				</div>
+				<div class="user-info">
+					<form action="" class="profile-form" method="post">
+						<div class="form-content">
+							<p class="input-name">Name</p>
+							<input name="name" type="text" id="username" value="Lê Minh Kha">                        
+						
+							<p class="input-name">Email</p>
+							<input name="email" type="text" id="email" value="minhkhalectu@gmail.com">                       
+					
+							<p class="input-name">Phone</p>
+							<input name="phone" type="text" id="phone" value="0398897634">  
+													
+							<p class="input-name">Address</p>
+							<input name="address" type="text" id="address" value="622/10 Cộng Hòa, phường 13, quận Tân Bình">
+						</div>
+						<button class="btn btn-primary" type="submit">Update</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- History -->
+<div class="wraper">
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="section-title">
+                    <h3><span class="orange-text">Your </span>Orders</h3>
+                </div>
+            </div>
+        </div>
+        <div class="history">
+            <div class="history-title">ID Order: #1</div>
+            <div class="history-content">
+                <div class="history-content-img">
+                        <img src="./public/img/vegetables/1.jpg" alt="" class=>
+                </div>
+                <div class="history-content-decs">
+                    <p class="cake-name"><b>Name</b></p>
+                    <p class="cake-price" style="color: var(--main-color)">Price: 10$</p>
+                    <p class="cake-quantity">Amount: 3</p>
+                </div>
+            </div>
+            <div class="history-ending">
+                <div class="history-ending1">
+                    <p class="history-ending-content">TOTAL: </p>
+                    <p class="history-ending-content" style="color: var(--main-color)">30$</p>
+                </div>
+                <div class="history-ending2">
+                    <p class="history-ending-content">STATUS: </p>
+                    <p class="history-ending-content" style="color: var(--main-color)">Chưa xử lý</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

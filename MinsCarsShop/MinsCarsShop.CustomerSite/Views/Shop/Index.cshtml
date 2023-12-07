@@ -1,0 +1,82 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+	var requestedController = ViewContext.RouteData.Values["controller"].ToString();
+}
+
+@model ShopModel
+
+<!-- hero area -->
+<div style="height: 450px !important;" class="hero-area features-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 offset-lg-2 text-center">
+				<div class="hero-text">
+					<div class="hero-text-tablecell">
+						<p class="subtitle">Beautiful & High fashion</p>
+						<h1>Shop</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end hero area -->
+<!-- product section -->
+<div class="product-section mt-100 mb-100">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div style="margin-bottom: 25px !important;" class="section-title">
+					<h3><span class="orange-text">Our </span>Products</h3>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="product-filters">
+					<ul>
+						<li class="@(requestedController=="Shop" ? "active" : "")"><a style="color: #051922" asp-controller="shop" asp-action="index">All</a></li>
+						@foreach (var c in Model.Categories)
+						{
+							<li class="@(requestedController=="Category" ? "active" : "")"><a style="color: #051922" asp-controller="shop" asp-action="category" asp-route-Id="@c.Id">@c.Name</a></li>
+						}
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			@foreach (var t in Model.Totes)
+			{
+			<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+				<div class="single-product-item">
+					<div class="product-image">
+					<a asp-controller="shop" asp-action="detail" asp-route-Id="@t.Id"><img src="@t.Image" alt=""></a>
+					</div>
+					<h3>@t.Name</h3>
+					<p class="product-price"> @t.Price$ </p>
+					<button type="button" class="btn btn-outline-secondary btn-lg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+				</div>
+			</div>
+			}
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<div class="pagination-wrap">
+					<ul>
+						<li><a href="#">Prev</a></li>
+						<li><a href="#">1</a></li>
+						<li><a class="active" href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">Next</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end product section -->

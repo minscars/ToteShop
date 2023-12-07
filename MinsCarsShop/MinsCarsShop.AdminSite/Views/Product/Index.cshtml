@@ -1,0 +1,125 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ProductModel
+<nav class="form-search navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
+    <div class="form-search">
+        <form class="d-flex">
+            <input class="form-control me-2 bg-transparent" type="text" placeholder="Search" aria-label="Search">
+        </form>
+    </div>
+</nav>
+
+<div class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="card mb-4">
+            <div>
+              <button style="float: right; margin-right: 30px;" type="button" class="btn btn-primary btn-add-different-color" data-bs-toggle="modal" data-bs-target="#addProduct">Add</button>
+            </div>
+            <div class="card-body px-0 pt-0 pb-2">
+              <div class="table-responsive p-0">
+                <table id="tbProduct" class="table align-items-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder ">image</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder ">name</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder ">price ($)</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder ">updated time</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder ">Operation</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tbody">
+                        @foreach(var t in Model.Totes){
+
+                    <tr>
+                      <td class="align-middle text-center">
+                        <img src="@t.Image" class="avatar avatar-sm me-3" alt="">
+                      </td>
+                      <td >
+                        <div>
+                          <p style="word-break: break-all" class=" text-xs font-weight-bold mb-0">@t.Name</p>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="px-2 py-1">
+                          <div class="text-center d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">@t.Price</h6>
+                          </div>
+                        </div>
+                      </td>
+                      
+                      <td>
+                        <div class="px-2 py-1">
+                          <div class="text-center d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">@t.UpdatedTime</h6>
+                          </div>
+                        </div>
+                      </td>
+
+                      <td class="align-middle" style="text-align: center;">
+                        <a asp-action="EditProduct" asp-controller="product" asp-route-Id="@t.Id">
+                            <button style="margin-right: 10px;" type="button" class="btn btn-primary btn-update-different-color">update</button>
+                        </a>
+                            <button onclick="deleteTote(@t.Id)" style="margin-left: 10px;" type="button" class="btn btn-primary btn-delete-different-color">delete</button>
+                        <a asp-controller="product" asp-action="DetailProduct" asp-route-Id="@t.Id">
+                            <button style="float: right; margin-right: 30px;" type="button" class="btn btn-primary btn-detail-different-color">Detail</button>
+                        </a>
+                      </td>
+                    </tr>
+                        }
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal add product -->
+      <div class="modal fade" id="addProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Thêm sản phẩm</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               @*form nè*@
+               <form asp-controller="product" asp-action="add" method=post enctype="multipart/form-data">
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Name:</label>
+                  <input type="text" class="form-control" name="Name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Price:</label>
+                  <input type="text" class="form-control" name="Price">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Image:</label>
+                  <input type="file" class="form-control" name="Image">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Categories:</label>
+                  <div class="dropdown">
+                    <select class="form-select" aria-label="Default select example" name="CategoryId">
+                        @foreach(var c in Model.Categories){                      
+                          <option>@c.Id</option>
+                        }
+                    </select>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Exit</button>
+                  <button type="submit" data-bs-dismiss="modal" class="btn btn-primary">Save</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

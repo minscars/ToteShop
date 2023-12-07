@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ProductModel
+<div class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="card-body px-0 pt-0 pb-2">
+                        <div class="table-responsive p-0">
+                            <div style="width: 550px; padding-left: 300px;">
+                                <form asp-controller="product" asp-action="edit" method=post enctype="multipart/form-data">
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">ID:</label>
+                                        <input value="@Model.Tote.Id" type="text" class="form-control" name="Id">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Name:</label>
+                                      <input value="@Model.Tote.Name" type="text" class="form-control" name="Name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Price:</label>
+                                        <input value="@Model.Tote.Price" type="text" class="form-control" name="Price">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Image:</label>
+                                        <input style="display: flex; justify-content:space-evenly" type="file" id="upload-file" accept="image/jpeg, image/png, image/jpg" name="Image">
+                                        <output style="display: flex; justify-content:space-evenly">
+                                            <div  class="image">
+                                                <img src="@Model.Tote.Image" />
+                                                <span>x</span>
+                                            </div>
+                                            <output id="upload-file-out"></output>
+                                        </output>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Categories:</label>
+                                      <div class="dropdown">
+                                        <select class="form-select" aria-label="Default select example" name="CategoryId">
+                                            @foreach(var c in Model.Categories){                      
+                                              <option>@c.Id</option>
+                                            }
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Exit</button>
+                                      <button type="submit" data-bs-dismiss="modal" class="btn btn-primary">Save</button>
+                                    </div>
+                                 </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

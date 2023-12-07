@@ -1,0 +1,209 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Categories\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\Categories\\1.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Categories\\2.jpeg",
+      "PackagePath": "staticwebassets\\images\\Categories\\2.jpeg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Categories\\57104323-b642-4cd8-9196-8edd1f99daed.jpg",
+      "PackagePath": "staticwebassets\\images\\Categories\\57104323-b642-4cd8-9196-8edd1f99daed.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Categories\\9b71e182-22ce-45b6-baf7-e21b2bcc48a4.jpg",
+      "PackagePath": "staticwebassets\\images\\Categories\\9b71e182-22ce-45b6-baf7-e21b2bcc48a4.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Categories\\ef30362d-624d-46d4-bafb-010407796ecf.jpg",
+      "PackagePath": "staticwebassets\\images\\Categories\\ef30362d-624d-46d4-bafb-010407796ecf.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\0a7db6a5-27d6-4fbc-be3f-d03a72a5ac92.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\0a7db6a5-27d6-4fbc-be3f-d03a72a5ac92.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\10.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\11.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\12.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\120abb68-8362-41b7-8482-d8741e1ad8e4.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\120abb68-8362-41b7-8482-d8741e1ad8e4.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\13.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\14.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\15.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\16.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\17.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\17.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\18.jpeg",
+      "PackagePath": "staticwebassets\\images\\Totes\\18.jpeg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\25fd8aea-4bc9-4a8e-b11a-49b60cb87ff8.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\25fd8aea-4bc9-4a8e-b11a-49b60cb87ff8.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\3.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\3.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\3e54fbd4-0003-489a-90d6-f2dbdee49b2a.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\3e54fbd4-0003-489a-90d6-f2dbdee49b2a.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\4.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\44728de5-2cd6-4ee6-8c89-7f819b1a77c3.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\44728de5-2cd6-4ee6-8c89-7f819b1a77c3.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\4d197116-f90d-4d79-97bb-7af0bbf0f305.jpeg",
+      "PackagePath": "staticwebassets\\images\\Totes\\4d197116-f90d-4d79-97bb-7af0bbf0f305.jpeg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\5.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\53c08f38-7cec-42c5-8a4b-5c0975f32376.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\53c08f38-7cec-42c5-8a4b-5c0975f32376.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\5f47184d-3767-48e3-9105-e3268a43c6b6.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\5f47184d-3767-48e3-9105-e3268a43c6b6.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\6.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\625d4bb9-b110-43ed-8c94-ffc021c386bf.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\625d4bb9-b110-43ed-8c94-ffc021c386bf.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\6ff084de-78a1-4c1d-84df-8643d91ec215.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\6ff084de-78a1-4c1d-84df-8643d91ec215.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\7.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\76554810-3967-404e-acd5-41168a4257e2.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\76554810-3967-404e-acd5-41168a4257e2.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\79303fb8-1702-40b6-95b6-1b2302fa4343.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\79303fb8-1702-40b6-95b6-1b2302fa4343.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\8.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\8485d1fa-6ae7-4bf6-85f3-0bdb559f2646.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\8485d1fa-6ae7-4bf6-85f3-0bdb559f2646.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\8872bc25-94af-4f7f-893c-61d30b82858f.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\8872bc25-94af-4f7f-893c-61d30b82858f.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\9.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\b59c45e5-447d-4338-be2c-d572abf1275e.jpeg",
+      "PackagePath": "staticwebassets\\images\\Totes\\b59c45e5-447d-4338-be2c-d572abf1275e.jpeg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\bd9cf0f4-1289-43e4-bb5b-22ce5227b5a0.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\bd9cf0f4-1289-43e4-bb5b-22ce5227b5a0.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\bebcfaaf-3736-42ad-9e9c-a73d6d780591.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\bebcfaaf-3736-42ad-9e9c-a73d6d780591.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\ca140179-ee9a-47e3-aa7e-83c99ffcf3c8.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\ca140179-ee9a-47e3-aa7e-83c99ffcf3c8.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\d17757e8-724d-4f21-8c1a-04c7c21512f5.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\d17757e8-724d-4f21-8c1a-04c7c21512f5.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\d3d426b9-fc55-47b8-8ab5-a87aa60ee823.jpg",
+      "PackagePath": "staticwebassets\\images\\Totes\\d3d426b9-fc55-47b8-8ab5-a87aa60ee823.jpg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\e062d146-2b75-446b-9837-11d855a6be1e.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\e062d146-2b75-446b-9837-11d855a6be1e.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\e1c54823-08f4-4ad1-af8d-ffd79ca49bec.jpeg",
+      "PackagePath": "staticwebassets\\images\\Totes\\e1c54823-08f4-4ad1-af8d-ffd79ca49bec.jpeg"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\e9f16072-601c-4754-93fd-1646b4c7cebe.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\e9f16072-601c-4754-93fd-1646b4c7cebe.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\ef62dd84-1d0e-4875-9929-3086c459145b.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\ef62dd84-1d0e-4875-9929-3086c459145b.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\efce35b9-4bf8-4e4b-b45d-9840529f7965.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\efce35b9-4bf8-4e4b-b45d-9840529f7965.png"
+    },
+    {
+      "Id": "D:\\Sources\\minscars-shop\\src\\MinsCarsShop\\MinsCarsShop.Api\\wwwroot\\images\\Totes\\f7062b58-5886-4616-8674-aaffd60e090d.png",
+      "PackagePath": "staticwebassets\\images\\Totes\\f7062b58-5886-4616-8674-aaffd60e090d.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MinsCarsShop.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MinsCarsShop.Api.props",
+      "PackagePath": "build\\MinsCarsShop.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MinsCarsShop.Api.props",
+      "PackagePath": "buildMultiTargeting\\MinsCarsShop.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MinsCarsShop.Api.props",
+      "PackagePath": "buildTransitive\\MinsCarsShop.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

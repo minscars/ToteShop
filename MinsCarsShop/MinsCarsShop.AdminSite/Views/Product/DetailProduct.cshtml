@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ProductModel
+<div style="margin-top:160px;" class="row mb-80">
+	<div class="col-lg-8 offset-lg-2 text-center">
+		<div style="margin-bottom: 25px !important;" class="section-title">
+			<h3><span class="orange-text">Our </span>@Model.Tote.Name</h3>
+		</div>
+	</div>
+</div>
+<div style="margin-top:50px" class="mt-100 mb-100">
+	<div class="container">
+		<div style="display:flex; margin-left:300px;">
+			<div>
+                <img style="height:300px; width: 300px" src="@Model.Tote.Image" alt="">
+			</div>
+			<div style="margin-left:30px; ">
+				<p class="mb-3 text-xs font-weight-bold mb-0"> <b>ID:</b> @Model.Tote.Id</p>
+				<p class="mb-3 text-xs font-weight-bold mb-0"> <b>Price:</b> @Model.Tote.Price $</p>
+				<p class="mb-3 text-xs font-weight-bold mb-0"> <b>Category:</b> @Model.Tote.CategoryName</p>
+				<p class="mb-3 text-xs font-weight-bold mb-0"> <b>Create time:</b> @Model.Tote.CreatedTime</p>
+				<p class="mb-3 text-xs font-weight-bold mb-0"> <b>Update time:</b> @Model.Tote.UpdatedTime</p>
+			</div>
+		</div>
+	</div>
+</div>

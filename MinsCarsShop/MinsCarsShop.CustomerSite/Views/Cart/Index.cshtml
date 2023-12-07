@@ -1,0 +1,68 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model CartModel
+<div style="height: 450px !important;" class="hero-area features-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 offset-lg-2 text-center">
+				<div class="hero-text">
+					<div class="hero-text-tablecell">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- cart -->
+	<div class="cart-section mt-100 mb-100">
+		<div class="container">
+			<div class="cart-table-wrap">
+				<table class="cart-table">
+					<thead class="cart-table-head">
+						<tr class="table-head-row">
+							<th colspan="2" class="product-name">Product</th>
+							<th class="product-price">Price</th>
+							<th class="product-quantity">Quantity</th>
+							<th class="product-subtotal">Subtotal</th>
+							<th class="product-remove"></th>
+						</tr>
+					</thead>
+					<tbody>
+					@foreach (var c in Model.Carts.ProductsInCart)
+					{	
+						<tr class="table-body-row">
+							<td class="product-image-cart"><img src="@c.Image" alt=""></td>
+							<td class="product-name">@c.Name</td>
+							<td class="product-price">@c.Price $</td>
+							@*<td class="product-quantity"></td>*@
+							<td class="product-quantity">
+								<input onchange="updateAmount(@c.ToteId, this.value)" type="number" value="@c.Amount" min="1" max="10" placeholder="0">
+							</td>
+							<td class="product-price">@c.Subtotal $</td>
+							<td class="product-remove">
+								<button onclick="deleteProductInCart(@c.ToteId)" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+							</td>
+						</tr>
+					}
+					</tbody>
+					<tfoot class="table-body-row">
+						<tr class="table-total-row">
+							<td style="text-align:right;" colspan="4"><strong>TOTAL:</strong></td>
+							<td style="text-align: center;" class="product-total"> <strong>@Model.Carts.Total</strong></td>
+							<td></td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+			<div class="total-section">
+				<div class="cart-buttons">
+					<a class="boxed-btn black"><i class="fas fa-cart-plus"></i></i> Go on shoping</a>
+					<a onclick="order()" class="boxed-btn black"><i class="fas fa-money-check"></i> Check Out</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end cart -->
